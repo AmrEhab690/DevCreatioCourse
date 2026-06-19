@@ -61,6 +61,12 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"width": 175
 						},
 						{
+							"id": "4b5bf4f7-7367-89f0-8a40-3f4930d77c09",
+							"code": "PDS_UsrComment",
+							"caption": "#ResourceString(PDS_UsrComment)#",
+							"dataValueType": 28
+						},
+						{
 							"id": "0301fa61-8518-a794-777a-9be6f952a77b",
 							"code": "PDS_CreatedOn",
 							"caption": "#ResourceString(PDS_CreatedOn)#",
@@ -121,6 +127,11 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"path": "PDS.UsrPassengersCount"
 						}
 					},
+					"PDS_UsrComment": {
+						"modelConfig": {
+							"path": "PDS.UsrComment"
+						}
+					},
 					"PDS_CreatedOn": {
 						"modelConfig": {
 							"path": "PDS.CreatedOn"
@@ -154,6 +165,9 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						},
 						"UsrPassengersCount": {
 							"path": "UsrPassengersCount"
+						},
+						"UsrComment": {
+							"path": "UsrComment"
 						},
 						"CreatedOn": {
 							"path": "CreatedOn"
