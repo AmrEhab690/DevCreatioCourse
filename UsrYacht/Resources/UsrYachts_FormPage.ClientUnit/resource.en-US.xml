@@ -3,7 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yachts form page" />
+			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 			<Item Name="LocalizableStrings.addRecord_iv9631c_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_r6afygl_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ssee3cc_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_u3fco91_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_u5jvqbo_caption.Value" Value="Add new" />
 		</Items>

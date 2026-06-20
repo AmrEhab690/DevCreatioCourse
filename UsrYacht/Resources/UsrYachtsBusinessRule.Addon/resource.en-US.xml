@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.5e320293-612d-ac8e-9c2b-d1b56359c496.Caption" Value="ChildRule-e5c34df5-7d67-89de-ad97-a81c5a9b96a1-PopulateValue" />
+			<Item Name="AddonConfig.Rules.6c59336c-f0f7-d2ba-2ae2-c57366c52892.Caption" Value="manager employee" />
+			<Item Name="AddonConfig.Rules.7b0efaed-9066-4e09-1aa8-1f087fa8c9e9.Caption" Value="ChildRule-e5c34df5-7d67-89de-ad97-a81c5a9b96a1-ClearValue" />
+			<Item Name="AddonConfig.Rules.e5c34df5-7d67-89de-ad97-a81c5a9b96a1.Caption" Value="filter cities" />
+			<Item Name="AddonConfig.Rules.fb344618-fffd-c86b-2a9f-7bfd0a0948be.Caption" Value="calc price of ticket" />
+			<Item Name="Caption" Value="Yachts (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

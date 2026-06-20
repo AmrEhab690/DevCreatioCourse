@@ -127,6 +127,40 @@
     "FB5": 2
   }
 }
++ MetaData.Schema.D2 {
+  "UId": "203c6104-e673-21e2-2710-cecdee430715",
+  "A2": "UsrCity",
+  "A3": "91021a11-84f8-4056-b1c4-375fa75b145a",
+  "A4": "91021a11-84f8-4056-b1c4-375fa75b145a",
+  "A5": "a330d2aa-dbe5-4567-89d5-d74e96beaea6",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrCityId",
+  "E18": "UsrCityName"
+}
++ MetaData.Schema.D2 {
+  "UId": "de9ad715-d104-6088-c8ff-9f38071cb083",
+  "A2": "UsrCountry",
+  "A3": "91021a11-84f8-4056-b1c4-375fa75b145a",
+  "A4": "91021a11-84f8-4056-b1c4-375fa75b145a",
+  "A5": "a330d2aa-dbe5-4567-89d5-d74e96beaea6",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "09fce1f8-515c-4296-95cd-8cd93f79a6cf",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrCountryId",
+  "E18": "UsrCountryName"
+}
++ MetaData.Schema.D2 {
+  "UId": "cb5338c1-daae-546e-dae4-f3643a99186f",
+  "A2": "UsrTicketPrice",
+  "A3": "91021a11-84f8-4056-b1c4-375fa75b145a",
+  "A4": "91021a11-84f8-4056-b1c4-375fa75b145a",
+  "A5": "a330d2aa-dbe5-4567-89d5-d74e96beaea6",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -141,7 +175,10 @@
   "04a9e8c3-8bdb-22b8-b9d8-f87fec337575",
   "6fde4b16-a307-1f21-0d40-58fdbfd4d704",
   "749f4319-dd71-e28c-9d9d-6f82e0e08e68",
-  "6098c829-f0ea-8546-3792-c600e1318944"
+  "6098c829-f0ea-8546-3792-c600e1318944",
+  "203c6104-e673-21e2-2710-cecdee430715",
+  "de9ad715-d104-6088-c8ff-9f38071cb083",
+  "cb5338c1-daae-546e-dae4-f3643a99186f"
 ]
 = MetaData.Schema.D20.A2 "UsrYachtsEvents"
 + MetaData.Schema.D20.FA1 false
