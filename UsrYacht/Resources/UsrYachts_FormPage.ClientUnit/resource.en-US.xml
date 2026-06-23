@@ -3,12 +3,23 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yachts form page" />
+			<Item Name="LocalizableStrings.ExpansionPanel_z59jz25_title.Value" Value="Yacht Rental" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_i2qotbd_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_ahw261j_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_igu62hw_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_kr7nv04_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_aa60out_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_d9hkuca_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.ManagerEmail_label.Value" Value="Manager Email" />
+			<Item Name="LocalizableStrings.PassengersCountCannotBeLess.Value" Value="Passengers Count cannot be less than 2" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 200.0" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 			<Item Name="LocalizableStrings.addRecord_iv9631c_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_r6afygl_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ssee3cc_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_u3fco91_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_u5jvqbo_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.categoriesMultiSelect_label.Value" Value="Categories" />
 		</Items>
 	</Group>
 </Resources>

@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yachts list page" />
+			<Item Name="LocalizableStrings.Label_dbzn0to_caption.Value" Value="Rentals:" />
+			<Item Name="LocalizableStrings.Label_qspxw9v_caption.Value" Value="Yachts:" />
 		</Items>
 	</Group>
 </Resources>

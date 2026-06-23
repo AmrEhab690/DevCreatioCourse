@@ -72,7 +72,48 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"caption": "#ResourceString(PDS_CreatedOn)#",
 							"dataValueType": 7
 						}
-					]
+					],
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"visible": true,
+					"activeRow": "$DataTable_ActiveRow",
+					"_filterOptions": {
+						"from": [
+							"Items",
+							"DataTable_ActiveRow"
+						],
+						"expose": [
+							{
+								"attribute": "DataTable_285c4ea5_ExposeFilter",
+								"converters": [
+									{
+										"converter": "crt.ToValuesFromCollection",
+										"args": [
+											"Items",
+											"Id"
+										]
+									},
+									{
+										"converter": "crt.ToInFilter",
+										"args": [
+											"UsrParentYacht"
+										]
+									}
+								]
+							}
+						]
+					}
 				}
 			},
 			{
@@ -90,9 +131,151 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"filters": []
 					}
 				}
+			},
+			{
+				"operation": "insert",
+				"name": "Label_qspxw9v",
+				"values": {
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Label_qspxw9v_caption)#)#",
+					"labelType": "headline-1",
+					"labelThickness": "default",
+					"labelEllipsis": false,
+					"labelColor": "auto",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "start",
+					"headingLevel": "label",
+					"visible": true
+				},
+				"parentName": "ListContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Label_dbzn0to",
+				"values": {
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Label_dbzn0to_caption)#)#",
+					"labelType": "headline-1",
+					"labelThickness": "default",
+					"labelEllipsis": false,
+					"labelColor": "auto",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "start",
+					"headingLevel": "label",
+					"visible": true
+				},
+				"parentName": "ListTabContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_dpfzpx1",
+				"values": {
+					"type": "crt.DataGrid",
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"items": "$DataGrid_dpfzpx1",
+					"primaryColumnName": "DataGrid_dpfzpx1DS_Id",
+					"columns": [
+						{
+							"id": "17e6b362-da08-69dd-92a4-ffcc59ca4f84",
+							"code": "DataGrid_dpfzpx1DS_UsrStartDate",
+							"caption": "#ResourceString(DataGrid_dpfzpx1DS_UsrStartDate)#",
+							"dataValueType": 8,
+							"width": 135
+						},
+						{
+							"id": "2c070845-29b8-dd06-fd23-4404d022e6fe",
+							"code": "DataGrid_dpfzpx1DS_UsrEndDate",
+							"caption": "#ResourceString(DataGrid_dpfzpx1DS_UsrEndDate)#",
+							"dataValueType": 8,
+							"width": 183
+						},
+						{
+							"id": "860c83d5-47f2-44f0-b1ff-dc4c7d158891",
+							"code": "DataGrid_dpfzpx1DS_UsrComment",
+							"caption": "#ResourceString(DataGrid_dpfzpx1DS_UsrComment)#",
+							"dataValueType": 28,
+							"width": 187
+						},
+						{
+							"id": "67bde28d-567b-1b32-9e4d-7a88df651380",
+							"code": "DataGrid_dpfzpx1DS_CreatedOn",
+							"caption": "#ResourceString(DataGrid_dpfzpx1DS_CreatedOn)#",
+							"dataValueType": 7
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "ListTabContainer",
+				"propertyName": "items",
+				"index": 2
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
+			{
+				"operation": "merge",
+				"path": [
+					"attributes"
+				],
+				"values": {
+					"DataGrid_dpfzpx1": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "DataGrid_dpfzpx1DS",
+							"filterAttributes": [
+								{
+									"name": "DataTable_285c4ea5_ExposeFilter",
+									"loadOnChange": true
+								}
+							]
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"DataGrid_dpfzpx1DS_UsrStartDate": {
+									"modelConfig": {
+										"path": "DataGrid_dpfzpx1DS.UsrStartDate"
+									}
+								},
+								"DataGrid_dpfzpx1DS_UsrEndDate": {
+									"modelConfig": {
+										"path": "DataGrid_dpfzpx1DS.UsrEndDate"
+									}
+								},
+								"DataGrid_dpfzpx1DS_UsrComment": {
+									"modelConfig": {
+										"path": "DataGrid_dpfzpx1DS.UsrComment"
+									}
+								},
+								"DataGrid_dpfzpx1DS_CreatedOn": {
+									"modelConfig": {
+										"path": "DataGrid_dpfzpx1DS.CreatedOn"
+									}
+								},
+								"DataGrid_dpfzpx1DS_Id": {
+									"modelConfig": {
+										"path": "DataGrid_dpfzpx1DS.Id"
+									}
+								}
+							}
+						}
+					}
+				}
+			},
 			{
 				"operation": "merge",
 				"path": [
@@ -144,6 +327,35 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			{
 				"operation": "merge",
 				"path": [
+					"dataSources"
+				],
+				"values": {
+					"DataGrid_dpfzpx1DS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "UsrYachtRental",
+							"attributes": {
+								"UsrStartDate": {
+									"path": "UsrStartDate"
+								},
+								"UsrEndDate": {
+									"path": "UsrEndDate"
+								},
+								"UsrComment": {
+									"path": "UsrComment"
+								},
+								"CreatedOn": {
+									"path": "CreatedOn"
+								}
+							}
+						}
+					}
+				}
+			},
+			{
+				"operation": "merge",
+				"path": [
 					"dataSources",
 					"PDS",
 					"config"
@@ -173,6 +385,20 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"path": "CreatedOn"
 						}
 					}
+				}
+			},
+			{
+				"operation": "merge",
+				"path": [
+					"dependencies"
+				],
+				"values": {
+					"DataGrid_dpfzpx1DS": [
+						{
+							"attributePath": "UsrParentYacht",
+							"relationPath": "PDS.Id"
+						}
+					]
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
